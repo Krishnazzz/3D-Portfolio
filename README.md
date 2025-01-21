@@ -13,8 +13,8 @@ I have modified the GSAP club plugins with the trial plugins, but with the trial
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Krishnazzz/3D-Portfolio
+   cd 3D-Portfolio
    ```
 
 2. Install the required packages:
