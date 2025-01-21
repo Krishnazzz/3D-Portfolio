@@ -1,135 +1,73 @@
-<h1 align="center">🚀 My Portfolio Website 🚀</h1>
-<p align="center">
-  <img src="https://img.shields.io/badge/React-%5E18.0.0-blue" alt="React Badge">
-  <img src="https://img.shields.io/badge/TypeScript-%5E4.0.0-blueviolet" alt="TypeScript Badge">
-  <img src="https://img.shields.io/badge/GSAP-Club_Plugins-green" alt="GSAP Badge">
-  <img src="https://img.shields.io/badge/ThreeJS-%5E0.150.0-black" alt="ThreeJS Badge">
-</p>
-<p align="center">
-  <b>A next-level 3D portfolio website that combines technology, creativity, and animations for an unforgettable user experience.</b>
-</p>
+# My Portfolio Website - Overview 🚀
 
----
+This repository contains the open source version of my 3D portfolio website. Do check it out!
 
-## 🌟 Highlights
+## Instructions 🛠️
 
-- 🕹️ **3D Interactive UI**: Experience the power of ThreeJS and WebGL for immersive visuals.
-- 💨 **Smooth Animations**: Built with GSAP, making every scroll and interaction buttery smooth.
-- 🌐 **Responsive Design**: Perfectly optimized for every screen size.
-- ✨ **Cutting-Edge Tech**: A showcase of React, TypeScript, and modern libraries.
+I have modified the GSAP club plugins with the trial plugins, but with the trial plugin, you cannot host it⛔️. For Club plugins, check out here: [GSAP Installation](https://gsap.com/docs/v3/Installation/).
 
----
+**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, CSS, JavaScript
 
-## 🚒 Get Started
+### Installation
 
-### 🔧 Installation
+1. Clone the repository to your local machine:
 
-```bash
-# Clone the repository
-git clone <repository-url>
-cd <repository-directory>
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-# Install dependencies
-npm install
+2. Install the required packages:
 
-# Start the development server
-npm run dev
+   ```bash
+   npm install
+   ```
 
-🌐 Open in Browser
-Visit: http://localhost:3000
+3. Install React:
 
+   ```bash
+   npm i react
+   ```
 
-🚀 Features Breakdown
-🎮 Built with ThreeJS
-Explore a fully interactive 3D UI that leverages WebGL and ThreeJS for unparalleled visuals.
+4. Install GSAP for React:
 
-🕺 GSAP Animations
-Custom animations and effects for scrolling, hovering, and page transitions.
+   You can choose to install GSAP specifically for React or the general GSAP package:
 
-🌟 Responsive Design
-An adaptive layout that works flawlessly across all devices.
+   For React:
+   ```bash
+   npm i gsap/react
+   ```
 
+   Or the general GSAP package:
+   ```bash
+   npm i gsap
+   ```
 
-Here is the complete Markdown code for your README file:
+5. Run the development server:
 
-markdown
-Copy
-Edit
-<h1 align="center">🚀 My Portfolio Website 🚀</h1>
-<p align="center">
-  <img src="https://img.shields.io/badge/React-%5E18.0.0-blue" alt="React Badge">
-  <img src="https://img.shields.io/badge/TypeScript-%5E4.0.0-blueviolet" alt="TypeScript Badge">
-  <img src="https://img.shields.io/badge/GSAP-Club_Plugins-green" alt="GSAP Badge">
-  <img src="https://img.shields.io/badge/ThreeJS-%5E0.150.0-black" alt="ThreeJS Badge">
-</p>
-<p align="center">
-  <b>A next-level 3D portfolio website that combines technology, creativity, and animations for an unforgettable user experience.</b>
-</p>
+   ```bash
+   npm run dev
+   ```
 
----
+Open your browser and navigate to `http://localhost:3000` to view the website.
 
-## 🌟 Highlights
+## Features
 
-- 🕹️ **3D Interactive UI**: Experience the power of ThreeJS and WebGL for immersive visuals.
-- 💨 **Smooth Animations**: Built with GSAP, making every scroll and interaction buttery smooth.
-- 🌐 **Responsive Design**: Perfectly optimized for every screen size.
-- ✨ **Cutting-Edge Tech**: A showcase of React, TypeScript, and modern libraries.
+- 3D interactive UI built with ThreeJS and WebGL
+- Smooth animations using GSAP
+- Responsive design for various screen sizes
 
----
+## Contributing
 
-## 🚒 Get Started
+Contributions are welcome! Please follow these steps:
 
-### 🔧 Installation
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
-```bash
-# Clone the repository
-git clone <repository-url>
-cd <repository-directory>
+## License
 
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-🌐 Open in Browser
-Visit: http://localhost:3000
-
-🎨 Screenshots
-<p align="center"> <img src="https://via.placeholder.com/800x400" alt="Screenshot 1" width="600"> <img src="https://via.placeholder.com/800x400" alt="Screenshot 2" width="600"> </p>
-🚀 Features Breakdown
-🎮 Built with ThreeJS
-Explore a fully interactive 3D UI that leverages WebGL and ThreeJS for unparalleled visuals.
-
-🕺 GSAP Animations
-Custom animations and effects for scrolling, hovering, and page transitions.
-
-🌟 Responsive Design
-An adaptive layout that works flawlessly across all devices.
-
-🙌 Contributing
-We love contributors! Feel free to fork the repo, make changes, and open pull requests. Let's build something extraordinary together!
-
-🔥 Repository Structure
-plaintext
-Copy
-Edit
-.
-├── src
-│   ├── components
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   └── HeroSection.tsx
-│   ├── assets
-│   │   ├── images
-│   │   └── models
-│   ├── styles
-│   │   └── global.css
-│   └── App.tsx
-├── public
-├── package.json
-└── README.md
-
-💚 Acknowledgments
-GSAP: For mind-blowing animation tools.
-ThreeJS: For enabling 3D magic on the web.
-React: The foundation of this project.
+This project is licensed under the MIT License. See the LICENSE file for details.
+ 
